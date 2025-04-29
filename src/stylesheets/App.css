@@ -4,7 +4,7 @@
     position: sticky;
     z-index: 300;
     top: 0;
-    background: url("/images/bb.jpg") bottom;
+    background: url("public/images/bb.jpg") bottom;
     background-size: cover;
     color: white;
 }
