@@ -32,7 +32,7 @@
                     <Link
                         to="about"
                         smooth={true}
-                        duration={500}
+                        duration={200}
                         className="start-button"
                     >
                         START
