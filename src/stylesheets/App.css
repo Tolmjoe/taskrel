@@ -1,0 +1,639 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 300;
+    top: 0;
+    background: url("/images/bb.jpg") bottom;
+    background-size: cover;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: clamp(2.4vw,3.4vw,10rem);
+}
+
+.list-link {
+    list-style-type: none;
+}
+
+.list-link a {
+    font-weight:bold;
+    font-family: "Century Schoolbook", serif;
+    font-size: clamp(1vw,10px,4vw);
+    cursor: pointer;
+    position: relative;
+}
+.list-link a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in;
+}
+
+.list-link a:hover::after, .list-link a.active::after {
+    width: 50%;
+}
+
+
+
+.home {
+    background: url("images/dess.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.about {
+    background-color: rgba(58, 13, 13, 0.94);
+    height: 100vh;
+}
+
+.models {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.information {
+    height: 100vh;
+}
+
+.contact {
+    height: 100vh;
+}
+
+
+.title1 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.title2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+.car-section {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+.slider-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.car-image {
+    width: 40%;
+    height: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+.car-slide:focus,
+.car-image:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.custom-number-dots {
+    display: flex !important;
+    justify-content: center;
+    gap: 15px;
+}
+
+.custom-number-dots li {
+    width: auto;
+    height: auto;
+    margin: 0;
+    bottom: -2px;
+}
+
+.custom-number-dots li div.number-button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.custom-number-dots li div.number-button:hover {
+    transform: scale(1.1);
+    color: #000000;
+}
+
+.custom-number-dots li.slick-active div.number-button {
+    color: rgba(1, 16, 2, 0.57);
+}
+
+
+.start-button-back {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.start-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    position: relative;
+    flex-direction: column;
+    margin-top: 17px;
+}
+
+.start-button::after {
+    content: "";
+    margin-top: 3px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid black;
+    transform: rotate(45deg);
+}
+
+.start-button:hover {
+    background-color: rgba(46, 46, 38, 0.37);
+}
+
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 50px 20px;
+}
+
+.info-back {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 200px;
+}
+
+.gif-box {
+    width: 220px;
+    height: 330px;
+    background: white;
+    transform: skew(-10deg);
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gif-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: skew(-0.1deg);
+}
+
+.textspo {
+    color: white;
+    font-family: Constantia, "Times New Roman", Times, serif;
+}
+
+.black {
+    color: black;
+}
+
+.textspo2 {
+    color: white;
+    font-size: 6px;
+    padding: 0;
+    font-weight: normal;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+
+}
+
+.about-button::after {
+    content: "";
+    margin-left: 4px;
+    margin-bottom:2px;
+    width: 7px;
+    height: 7px;
+    border-right: 1.5px solid #ffffff;
+    border-bottom: 1.5px solid #ffffff;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease;
+}
+
+.about-button:hover::after {
+    margin-left: 9px;
+}
+
+
+/*models*/
+.models-page {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.models-title {
+    font-size: 28px;
+    font-family: "Poor Richard","Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.models-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.model-box {
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+    height: 180px;
+    background-color: #f5f5f5;
+    transform: skew(-15deg);
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    flex-shrink: 1;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.model-box:hover {
+    transform: skew(-15deg) scale(1.05);
+}
+
+
+.carm-image {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    transform: skew(15deg) scale(1.2);
+    margin-left: -10%;
+    margin-top: -10%;
+}
+
+
+.carm-info {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: left;
+}
+
+.carm-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.carm-model {
+    font-size: 10px;
+    margin: 0;
+}
+
+.model-box:hover .carm-info {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .model-box {
+        width: 28%;
+        height: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .model-box {
+        width: 30%;
+        height: 190px;
+    }
+}
+
+/*inf*/
+
+.inf-page {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding: 80px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-number {
+    position: absolute;
+    bottom: 300px;
+    font-size: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 0;
+    user-select: none;
+}
+
+.inf-text-section {
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+.inf-subtitle {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.inf-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #111;
+}
+
+.inf-image-section {
+    z-index: 1;
+}
+
+.inf-image {
+    width: 100%;
+    margin-top:80px;
+    max-width: 1000px;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.drop-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.inf-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+.inf-i {
+    font-size: 13px;
+    font-weight: normal;
+}
+.info1,
+.inf2,
+.info3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .background-number {
+        font-size: 70px;
+        top: 270px;
+    }
+
+    .inf-image {
+        width: 100%;
+    }
+
+    .inf-tab {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .inf-title {
+        font-size: 28px;
+    }
+
+    .info1,
+    .inf2,
+    .info3 {
+        font-size: 16px;
+    }
+}
+
+
+
+/*contact*/
+
+.contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+    background: #f9f9f9;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.image-contact {
+    width: 30%;
+    max-width: 500px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(-100px) skew(-15deg);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.image-contact img.contact-img {
+    width: auto;
+    height: 300px;
+    transform: skew(-1deg);
+}
+
+.form-section {
+    width: 78%;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.slide-in-left {
+    opacity: 1;
+    transform: translateX(0) skew(-15deg);
+}
+
+.slide-in-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.contact-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form input:focus {
+    border-color: #000;
+}
+
+.send-button {
+    padding: 14px 20px;
+    background-color: #ccad1c;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #333;
+}
+
+
+
+/*footer*/
+
+
+.footer {
+    background-color: #111;
+    color: #eee;
+    padding: 5px;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    font-size: 26px;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/*respp*/
+
+@media (max-width: 800px) {
+    .car-image {
+        width: 70%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 2000px) {
+    .start-button {
+        margin-top: 0;
+    }
+}
+ /*about*/
+@media (max-width: 768px) {
+    .about {
+        gap: 1px;
+        padding: 5px;
+    }
+
+    .info-back {
+        max-width: 300px;
+    }
+
+    .gif-box {
+        max-width: 100px;
+        max-height: 200px;
+    }
+
+    .textspo {
+        font-size: 17px;
+    }
+
+    .textspo2 {
+        font-size: 6px;
+    }
+
+    .about-button {
+        font-size: 10px;
+        width: 100px;
+    }
+}
