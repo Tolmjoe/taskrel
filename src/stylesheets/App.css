@@ -56,7 +56,7 @@ ul {
 .home {
     background: url("/public/images/dess.jpg");
     background-size: cover;
-    height: 100dvh;
+    height: 80dvh;
 }
 
 .about {
