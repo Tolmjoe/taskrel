@@ -648,14 +648,14 @@ ul {
     }
 
     .image-contact {
-    width: 40%;
+    width: 50%;
      }
 
 .image-contact img.contact-img {
-    height: 350px;
+    height: 250px;
 }
 
 .form-section {
-    width: 28%;
+    width: 50%;
 }
 }
