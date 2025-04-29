@@ -171,7 +171,7 @@ ul {
     border-radius: 50%;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.1s ease;
+    transition: all 0.1s ease-in-out;
     position: relative;
     flex-direction: column;
     margin-top: 17px;
