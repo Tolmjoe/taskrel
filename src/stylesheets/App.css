@@ -649,14 +649,13 @@ ul {
 
     .image-contact {
     width: 40%;
-    max-width: 500px;
-}
+     }
 
 .image-contact img.contact-img {
     height: 350px;
 }
 
 .form-section {
-    width: 48%;
+    width: 28%;
 }
 }
