@@ -174,7 +174,7 @@ ul {
     transition: all 0.1s ease-in-out;
     position: relative;
     flex-direction: column;
-    margin-top: 17px;
+    margin-top: 97px;
 }
 
 .start-button::after {
