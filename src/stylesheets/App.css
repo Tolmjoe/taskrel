@@ -56,27 +56,27 @@ ul {
 .home {
     background: url("/public/images/dess.jpg");
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
 }
 
 .about {
     background-color: rgba(58, 13, 13, 0.94);
-    height: 100dvh;
+    height: 90vh;
 }
 
 .models {
-    height: 100dvh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
 
 .information {
-    height: 100dvh;
+    height: 90vh;
 }
 
 .contact {
-    height: 100dvh;
+    height: 90vh;
 }
 
 
