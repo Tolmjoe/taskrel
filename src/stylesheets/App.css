@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+} 
+
+html, body{
+    margin: 0;
+    padding: 0;
+} 
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -47,27 +56,27 @@ ul {
 .home {
     background: url("/public/images/dess.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 .about {
     background-color: rgba(58, 13, 13, 0.94);
-    height: 100vh;
+    height: 90vh;
 }
 
 .models {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
 
 .information {
-    height: 100vh;
+    height: 90vh;
 }
 
 .contact {
-    height: 100vh;
+    height: 90vh;
 }
 
 
@@ -143,7 +152,7 @@ ul {
 
 
 .start-button-back {
-    margin-top: 40px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -162,7 +171,7 @@ ul {
     border-radius: 50%;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease-in-out;
     position: relative;
     flex-direction: column;
     margin-top: 17px;
@@ -600,13 +609,7 @@ ul {
 @media (max-width: 800px) {
     .car-image {
         width: 70%;
-        height: 200px;
-    }
-}
-
-@media (max-width: 2000px) {
-    .start-button {
-        margin-top: 0;
+        height: 180px;
     }
 }
  /*about*/
@@ -637,4 +640,16 @@ ul {
         font-size: 10px;
         width: 100px;
     }
+
+    .image-contact {
+    width: 50%;
+     }
+
+.image-contact img.contact-img {
+    height: 280px;
+}
+
+.form-section {
+    width: 55%;
+}
 }
