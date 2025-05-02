@@ -6,7 +6,7 @@ function Footer() {
             <div className="footer-text">
 
                 <div className="footer-logo">
-                    <h2>RIDE</h2>
+                    <h2>OAKRIGS VEHICLES</h2>
                     <p>Driven by speed, powered by fuel.</p>
                 </div>
 

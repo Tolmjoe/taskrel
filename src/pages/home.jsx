@@ -84,8 +84,8 @@
                 <div className="inf-page">
 
                     <div className="inf-text-section">
-                        <h4 className="inf-subtitle">CHOOSE YOUR RIDE</h4>
-                        <h1 className="inf-title">RIDE LP <br/> 980-5 ULTIMATE</h1>
+                        <h4 className="inf-subtitle">CHOOSE YOUR VEHICLE</h4>
+                        <h1 className="inf-title">OAKRIGS VEHICLE LP <br/> 980-5 ULTIMATE</h1>
                     </div>
                     <div className="background-number">980-5</div>
                     <div className="inf-image-section">
@@ -111,7 +111,7 @@
                     </div>
 
                     <div ref={rightRef} className={`form-section ${rightInView ? "slide-in-right" : ""}`}>
-                        <h2 className="contact-header">SUBSCRIBE TO GET <br/> YOUR RIDE</h2>
+                        <h2 className="contact-header">SUBSCRIBE TO GET <br/> YOUR OAKRIGS VEHICLE</h2>
                         <form className="contact-form">
                             <input type="text" name="name" placeholder="Enter Names" required />
                             <input type="email" name="email" placeholder="Enter Email" required />

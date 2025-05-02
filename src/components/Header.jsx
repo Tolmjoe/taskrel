@@ -4,7 +4,7 @@ function Header(){
     return(
         <>
         <div className="header">
-            <h4>RIDE</h4>
+            <h4>OAKRIGS VEHICLES</h4>
             <ul>
                 <li className="list-link"> <Link spy={true} activeClass="active" to="home" smooth={true} duration={300}>Home</Link></li>
                 <li className="list-link"> <Link spy={true} activeClass="active" to="about" smooth={true} duration={300}>About</Link></li>
