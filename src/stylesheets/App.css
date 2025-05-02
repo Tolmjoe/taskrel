@@ -19,6 +19,13 @@ html, body{
     color: white;
 }
 
+.headtext {
+    font-size: 15px;
+}
+
+.foottext {
+    font-size: 15px;
+}
 ul {
     display: flex;
     justify-content: center;
@@ -89,6 +96,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     color: white;
+    font-size: 30px;
 }
 .car-section {
     text-align: center;
@@ -522,7 +530,7 @@ ul {
 }
 
 .contact-header {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
@@ -585,7 +593,6 @@ ul {
 }
 
 .footer-logo h2 {
-    font-size: 26px;
     margin-bottom: 2px;
     margin-top: 1px;
 }

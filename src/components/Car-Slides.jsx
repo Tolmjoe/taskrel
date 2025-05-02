@@ -20,8 +20,8 @@ const CarsSlider = ({ images }) => {
     return (
         <div className="car-section">
             <h2 className="car-title">
-                <p className="title1">CHOOSE YOUR RIDE</p>
-                <h1 className="title2">RIDE</h1>
+                <p className="title1">CHOOSE YOUR OAKRIGS VEHICLE</p>
+                <h1 className="title2">OAKRIGS VEHICLE</h1>
             </h2>
             <div className="slider-wrapper">
                 <Slider {...settings}>
