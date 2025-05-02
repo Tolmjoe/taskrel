@@ -17,6 +17,8 @@ html, body{
     background-position: bottom;
     background-size: cover;
     color: white;
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 .headtext {
